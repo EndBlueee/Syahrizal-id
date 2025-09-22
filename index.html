@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Fira+Code:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+
+    <!-- BAGIAN NAVIGASI -->
+    <header class="kepala">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Proyek">Proyek</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- BAGIAN HALAMAN PERTAMA -->
+    <section id="home" class="hero">
+
+        <div class="mage-wrapper animasi-hero">
+            <img src="image/jaljas.png" alt="Foto Profil" class="mage1">
+        </div>
+
+        <div class="hero-teks">
+            <h1 class="animasi-hero"><span>Hi</span><span id="judul-ketik"> I'm Syahrizal</span></h1>
+            <p class="animasi-hero">Web Developer & Network Engginering</p>
+        </div>
+
+    </section>
+
+
+    <!-- BAGIAN HALAMAN KEDUA -->
+    <section id="about" class="bagian-about">
+
+        <h2 class="animasi-about">About Me</h2>
+        <p class="animasi-about">Saya merupakan seorang progammer mahasiswa semester 7
+            Program study Teknologi Informasi, memiliki fokus minat pada Web developer, Software Engginer dan Jaringan
+            Komputer,
+            memiliki pengalaman membuat project di perkuliahan. Oleh karena itu saya berusaha keras untuk
+            meningkatkan skill saya dan mendapatkan pengalaman bekerja secara prefesional.</p>
+
+    </section>
+
+
+    <!-- BAGIAN HALAMAN KETIGA -->
+    <section id="Proyek" class="bagian-proyek">
+
+        <div class="tab-links animasi-scroll">
+            <button class="tab-link active" onclick="openTab(event, 'proyek-content')">Proyek</button>
+            <button class="tab-link" onclick="openTab(event, 'skill-content')">Skill</button>
+        </div>
+
+        <div class="tab-container">
+            <div id="proyek-content" class="tab-content muncul-tab">
+
+                <div class="container-proyek">
+
+                    <div class="kartu-proyek animasi-scroll">
+
+                        <img src="image/cha.png" alt="">
+                        <div class="konten-kartu">
+                            <h3>Aplikasi Secure Chat</h3>
+                            <p></p>
+
+                        </div>
+                    </div>
+
+                    <div class="kartu-proyek animasi-scroll">
+
+                        <img src="image/hot1.png" alt="">
+                        <div class="konten-kartu">
+                            <h3>Sistem Reservasi Kamar</h3>
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                    <div class="kartu-proyek animasi-scroll">
+
+                        <img src="image/jale.png" alt="">
+                        <div class="konten-kartu">
+                            <h3>Portofolio</h3>
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="skill-content" class="tab-content">
+                <div class="container-skill">
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                            alt="HTML5 Logo">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                            alt="CSS3 Logo">
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                            alt="javaScript Logo">
+                        <h4>javaScript</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="Laravel Logo">
+                        <h4>Laravel</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                            alt="Python Logo">
+                        <h4>Python</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL Logo">
+                        <h4>MySQL</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                            alt="Tailwind Logo">
+                        <h4>Tailwind CSS</h4>
+                    </div>
+                    <div class="kartu-skill animasi-scroll">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+                            alt="Bootstrap Logo">
+                        <h4>Bootstrap</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- BAGIAN FOOTTER -->
+    <footer id="contact" class="bagian-footer">
+        <div class="footer-container">
+
+            <div class="footer-kolom">
+                <h3>Alamat</h3>
+                <div class="info-kontak alamat-kontak">
+                    <img src="image/lokasi.png" alt="Lokasi Logo" class="ikon-kontak">
+                    <p>Jl. Serua Raya, RT002/RW001<br>
+                        Kel. Serua, Kec. Bojongsari<br>
+                        Kota Depok, Jawa Barat</p>
+                </div>
+            </div>
+
+            <div class="footer-kolom">
+                <h3>Hubungi Saya</h3>
+                <div class="info-kontak">
+                    <img src="image/whatsapp.png" alt="Whatshapp Logo" class="ikon-kontak">
+                    <p>+62 895-6357-77179</p>
+                </div>
+                <div class="info-kontak">
+                    <img src="image/communication.png" alt="Email Logo" class="ikon-kontak">
+                    <p>srizzal26@gmail.com</p>
+                </div>
+
+                <div class="info-kontak">
+                    <img src="image/linkedin.png" alt="Linkedin Logo" class="ikon-kontak"> <a
+                        href="https://linkedin.com/in/syahrizal-id" target="_blank">Linkedin.com/in/syahrizal-id</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Syahrizal. All Right Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+        // INI BAGIAN NAVBAR SCROLL //
+        const header = document.querySelector('.kepala');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled')
+            }
+        });
+
+        // BAGIAN ABOUT ME //
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const callback = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('muncul');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(callback, options);
+            const targets = document.querySelectorAll('.animasi-about');
+
+            targets.forEach(target => {
+                observer.observe(target);
+            });
+        });
+
+
+
+        // BAGIAN HALAMAN PROYEK //
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+
+            function openTab(evt, tabName) {
+                let i, tabcontent, tablinks;
+
+                tabcontent = document.getElementsByClassName("tab-content");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].classList.remove('muncul-tab');
+                }
+
+                tablinks = document.getElementsByClassName("tab-link");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                evt.currentTarget.className += " active";
+
+                setTimeout(function () {
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    const newTab = document.getElementById(tabName);
+                    newTab.style.display = "block";
+
+                    setTimeout(() => {
+                        newTab.classList.add('muncul-tab');
+                    }, 10);
+                }, 300);
+            }
+            window.openTab = openTab
+
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.2
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('muncul');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            const scrollTargets = document.querySelectorAll('.animasi-scroll');
+            scrollTargets.forEach(target => observer.observe(target));
+
+            const allCards = document.querySelectorAll('.kartu-proyek, .kartu-skill');
+
+            allCards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transition = 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out';
+                    if (card.classList.contains('kartu-proyek')) {
+                        card.style.transform = 'translateY(-10px) scale(1.03)';
+                        card.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.12)';
+                    } else {
+                        card.style.transform = 'translateY(-8px) scale(1.05)';
+                        card.style.boxShadow = '0 12px 24px rgba(0, 0, 0, 0.1)';
+                    }
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    card.style.transition = 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out';
+                    card.style.transform = 'translateY(0) scale(1)';
+
+                    if (card.classList.contains('kartu-proyek')) {
+                        card.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.8)';
+                    } else {
+                        card.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 1)';
+                    }
+                });
+            });
+
+        });
+
+
+
+        // BAGIAN HERO //
+        const wrapper = document.querySelector('.mage-wrapper');
+        const gambar = document.querySelector('.mage1');
+
+        wrapper.addEventListener('mousemove', function (e) {
+            const rect = wrapper.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = (y - centerY) / 5;
+            const rotateY = (centerX - x) / 5;
+
+            gambar.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.1)`;
+            gambar.style.boxShadow = '0 8px 25px rgba(0, 123, 255, 0.3)';
+        });
+
+        wrapper.addEventListener('mouseleave', function () {
+
+            gambar.style.transform = `rotateX(0) rotateY(0) scale(1)`;
+            gambar.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const judul = document.getElementById('judul-ketik');
+            if (!judul) return;
+
+
+            const teksAsli = judul.innerText;
+            const jedaAntarHuruf = 120;
+            const jedaTunggu = 2000;
+
+            judul.innerHTML = '';
+            const semuaHuruf = teksAsli.split('').map(huruf => {
+                const span = document.createElement('span');
+                span.className = 'huruf';
+                span.innerText = huruf === ' ' ? '\u00A0' : huruf;
+                judul.appendChild(span);
+                return span;
+            });
+
+            let indexHuruf = 0;
+            let sedangMenghapus = false;
+
+            function jalankanAnimasi() {
+                semuaHuruf.forEach(h => h.classList.remove('kursor-aktif'));
+
+                if (sedangMenghapus) {
+                    if (indexHuruf > 0) {
+                        semuaHuruf[indexHuruf - 1].classList.remove('muncul');
+                        indexHuruf--;
+                        if (indexHuruf > 0) {
+                            semuaHuruf[indexHuruf - 1].classList.add('kursor-aktif');
+                        }
+                        setTimeout(jalankanAnimasi, jedaAntarHuruf);
+                    } else {
+                        sedangMenghapus = false;
+                        setTimeout(jalankanAnimasi, jedaTunggu);
+                    }
+                } else {
+                    if (indexHuruf < semuaHuruf.length) {
+                        semuaHuruf[indexHuruf].classList.add('muncul');
+                        semuaHuruf[indexHuruf].classList.add('kursor-aktif')
+                        indexHuruf++;
+                        setTimeout(jalankanAnimasi, jedaAntarHuruf);
+                    } else {
+                        sedangMenghapus = true;
+                        if (indexHuruf > 0) {
+                            semuaHuruf[indexHuruf - 1].classList.add('kursor-aktif');
+                        }
+                        setTimeout(jalankanAnimasi, jedaTunggu);
+                    }
+                }
+            }
+
+            jalankanAnimasi();
+
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector('.tab-link').click();
+            const heroElements = document.querySelectorAll('.animasi-hero');
+            setTimeout(() => {
+                heroElements.forEach(el => {
+                    el.classList.add('muncul');
+                });
+            }, 100);
+        });
+    </script>
+
+</body>
+
+</html>
