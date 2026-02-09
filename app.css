@@ -200,6 +200,7 @@ html {
     background-color: #f4f4f4;
     padding: 80px 50px;
     box-sizing: border-box;
+    gap: 15px;
 }
 
 .bagian-about h2 {
@@ -208,11 +209,12 @@ html {
 }
 
 .bagian-about p {
-    max-width: 800px;
+    max-width: 48rem;
     margin: 0 auto;
     text-align: justify;
     line-height: 1.6;
     font-family: 'Lora', serif;
+    gap: 15px;
 }
 
 .animasi-about {
@@ -357,6 +359,12 @@ html {
 .bagian-proyek .kartu-proyek.animasi-scroll:nth-child(3) {
     transition-delay: 0.5s;
 }
+.bagian-proyek .kartu-proyek.animasi-scroll:nth-child(4) {
+    transition-delay: 0.6s;
+}
+.bagian-proyek .kartu-proyek.animasi-scroll:nth-child(5) {
+    transition-delay: 0.7s;
+}
 
 .container-skill {
     display: flex;
@@ -436,6 +444,9 @@ html {
 
 .tab-content .kartu-skill.animasi-scroll:nth-child(8) {
     transition-delay: 1.6s;
+}
+.tab-content .kartu-skill.animasi-scroll:nth-child(9) {
+    transition-delay: 1.8s;
 }
 
 /* BAGIAN HALAMAN FOOTER STYLE */
